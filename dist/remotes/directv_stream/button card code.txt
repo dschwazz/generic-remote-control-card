@@ -1,0 +1,381 @@
+buttons:
+  pwr:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 26
+  ipt:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 178
+  pwr1:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 177
+  gde:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 172
+  home:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 3
+  dvr:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 173
+  rec:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 130
+  up:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 92
+  exit:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 4
+  left:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 21
+  select:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 23
+  rgt:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 22
+  voldown:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 25
+  volup:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 24
+  chdown:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 167
+  chup:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 166
+  mute:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 164
+  mic:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 231
+  prev:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 229
+  rew:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 89
+  play:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 85
+  fwd:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 90
+  1:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 145
+  2:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 146
+  3:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 147
+  4:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 148
+  5:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 149
+  6:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 150
+  7:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 151
+  8:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 152
+  9:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 153
+  0:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 154
+  apps:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 284
+
+
+name: directv_stream 
+remote_template: directv_stream 
+type: 'custom:generic-remote-control-card'
+
+buttons:
+  0:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 154
+  1:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 145
+  2:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 146
+  3:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 147
+  4:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 148
+  5:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 149
+  6:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 150
+  7:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 151
+  8:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 152
+  9:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 153
+  pwr:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 26
+  ipt:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 178
+  pwr1:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 177
+  gde:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 172
+  home:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 3
+  dvr:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 173
+  rec:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 130
+  up:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 92
+  exit:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 4
+  left:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 21
+  select:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 23
+  right:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 22
+  voldown:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 25
+  volup:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 24
+  chdown:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 167
+  chup:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 166
+  mute:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 164
+  mic:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 231
+  prev:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 229
+  rwd:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 89
+  play:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 85
+  fwd:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 90
+  apps:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.living_room_tv_2
+      command: input keyevent 284
+      
+name: directv_stream
+remote_template: directv_stream
+type: custom:generic-remote-control-card
+
+
+<li id="pwr" class="myButton"><a href="#" title="pwr"><span>pwr</span></a></li>
+					<li id="ipt" class="myButton"><a href="#" title="ipt"><span>ipt</span></a></li>
+					<li id="pwr1" class="myButton"><a href="#" title="pwr1"><span>pwr1</span></a></li>
+					<li id="gde" class="myButton"><a href="#" title="gde"><span>gde</span></a></li>
+					<li id="home" class="myButton"><a href="#" title="home"><span>home</span></a></li>
+					<li id="dvr" class="myButton"><a href="#" title="dvr"><span>dvr</span></a></li>
+					<li id="rec" class="myButton"><a href="#" title="rec"><span>rec</span></a></li>
+					<li id="up" class="myButton"><a href="#" title="up"><span>up</span></a></li>
+					<li id="exit" class="myButton"><a href="#" title="exit"><span>exit</span></a></li>
+					<li id="left" class="myButton"><a href="#" title="left"><span>left</span></a></li>
+					<li id="select" class="myButton"><a href="#" title="select"><span>select</span></a></li>
+					<li id="right" class="myButton"><a href="#" title="right"><span>right</span></a></li>
+					<li id="back" class="myButton"><a href="#" title="back"><span>back</span></a></li>
+					<li id="down" class="myButton"><a href="#" title="down"><span>down</span></a></li>
+					<li id="menu" class="myButton"><a href="#" title="menu"><span>menu</span></a></li>
+					<li id="volup" class="myButton"><a href="#" title="volup"><span>volup</span></a></li>
+					<li id="voldown" class="myButton"><a href="#" title="voldown"><span>voldown</span></a></li>
+					<li id="chup" class="myButton"><a href="#" title="chup"><span>chup</span></a></li>
+					<li id="chdown" class="myButton"><a href="#" title="chdown"><span>chdown</span></a></li>
+					<li id="mute" class="myButton"><a href="#" title="mute"><span>mute</span></a></li>
+					<li id="mic" class="myButton"><a href="#" title="mic"><span>mic</span></a></li>
+					<li id="prev" class="myButton"><a href="#" title="prev"><span>prev</span></a></li>
+					<li id="rwd" class="myButton"><a href="#" title="rwd"><span>rwd</span></a></li>
+					<li id="play" class="myButton"><a href="#" title="play"><span>play</span></a></li>
+					<li id="fwd" class="myButton"><a href="#" title="fwd"><span>fwd</span></a></li>
+					<li id="num0" class="myButton"><a href="#" title="0"><span>0</span></a></li>
+                    <li id="num1" class="myButton"><a href="#" title="1"><span>1</span></a></li>
+                    <li id="num2" class="myButton"><a href="#" title="2"><span>2</span></a></li>
+                    <li id="num3" class="myButton"><a href="#" title="3"><span>3</span></a></li>
+                    <li id="num4" class="myButton"><a href="#" title="4"><span>4</span></a></li>
+                    <li id="num5" class="myButton"><a href="#" title="5"><span>5</span></a></li>
+                    <li id="num6" class="myButton"><a href="#" title="6"><span>6</span></a></li>
+                    <li id="num7" class="myButton"><a href="#" title="7"><span>7</span></a></li>
+                    <li id="num8" class="myButton"><a href="#" title="8"><span>8</span></a></li>
+                    <li id="num9" class="myButton"><a href="#" title="9"><span>9</span></a></li>
+                    <li id="apps" class="myButton"><a href="#" title="apps"><span>apps</span></a></li>
+			
