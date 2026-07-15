@@ -2479,7 +2479,202 @@ buttons:
 ```
 
   </details>
+   <details>
+  <summary>DirecTV Stream remote: (Click to expand!)</summary>
 
+  <img src="https://github.com/dimagoltsman/generic-remote-control-card/raw/master/hisense_googletv.png" height="400">
+
+  Works with DirecTV streaming Osprey boxes
+
+```
+name: Directv Stream
+remote_template: directv_stream
+type: custom:generic-remote-control-card
+buttons:
+  zero:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.bunkroom_at_t_tv
+      command: input keyevent 154
+  one:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.bunkroom_at_t_tv
+      command: input keyevent 145
+  two:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.bunkroom_at_t_tv
+      command: input keyevent 146
+  three:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.bunkroom_at_t_tv
+      command: input keyevent 147
+  four:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.bunkroom_at_t_tv
+      command: input keyevent 148
+  five:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.bunkroom_at_t_tv
+      command: input keyevent 149
+  six:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.bunkroom_at_t_tv
+      command: input keyevent 150
+  seven:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.bunkroom_at_t_tv
+      command: input keyevent 151
+  eight:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.bunkroom_at_t_tv
+      command: input keyevent 152
+  nine:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.bunkroom_at_t_tv
+      command: input keyevent 153
+  pwr:
+    call: remote.send_command
+    data:
+      entity_id: media_player.bunkroom_at_t_tv
+      command: null
+  ipt:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.bunkroom_toshiba_fire_tv
+      command: input keyevent 178
+  pwr1:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.bunkroom_toshiba_fire_tv
+      command: POWER
+  gde:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.bunkroom_at_t_tv
+      command: input keyevent 172
+  home:
+    call: remote.send_command
+    data:
+      entity_id: media_player.bunkroom_at_t_tv
+      command: HOME
+  dvr:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.bunkroom_at_t_tv
+      command: input keyevent 173
+  rec:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.bunkroom_at_t_tv
+      command: input keyevent 130
+  up:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.bunkroom_at_t_tv
+      command: input keyevent 19
+  down:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.bunkroom_at_t_tv
+      command: input keyevent 20
+  exit:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.bunkroom_at_t_tv
+      command: input keyevent 4
+  left:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.bunkroom_at_t_tv
+      command: input keyevent 21
+  select:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.bunkroom_at_t_tv
+      command: input keyevent 23
+  right:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.bunkroom_at_t_tv
+      command: input keyevent 22
+  voldown:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.bunkroom_at_t_tv
+      command: input keyevent 25
+  volup:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.bunkroom_at_t_tv
+      command: input keyevent 24
+  chdown:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.bunkroom_at_t_tv
+      command: input keyevent 167
+  chup:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.bunkroom_at_t_tv
+      command: input keyevent 166
+  mute:
+    call: remote.send_command
+    data:
+      entity_id: media_player.bunkroom_at_t_tv
+      command: MUTE
+  mic:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.bunkroom_at_t_tv
+      command: input keyevent 231
+  prev:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.bunkroom_at_t_tv
+      command: input keyevent 229
+  rwd:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.bunkroom_at_t_tv
+      command: input keyevent 89
+  play:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.bunkroom_at_t_tv
+      command: input keyevent 85
+  fwd:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.bunkroom_at_t_tv
+      command: input keyevent 90
+  back:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.bunkroom_at_t_tv
+      command: input keyevent 4
+  menu:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.bunkroom_at_t_tv
+      command: input keyevent 82
+  apps:
+    call: androidtv.adb_command
+    data:
+      entity_id: media_player.bunkroom_at_t_tv
+      command: input keyevent 284
+```
+
+  </details>
+  
 # Contribution
 
 if you want to add your own remote template, you can do it in a new folder near the 'simple' and 'lg' remotes and
