@@ -2482,7 +2482,7 @@ buttons:
    <details>
   <summary>DirecTV Stream remote: (Click to expand!)</summary>
 
-  <img src="https://github.com/dimagoltsman/generic-remote-control-card/raw/master/hisense_googletv.png" height="400">
+  <img src="https://github.com/dimagoltsman/generic-remote-control-card/raw/master/directv_stream.png" height="400">
 
   Works with DirecTV streaming Osprey boxes
 
